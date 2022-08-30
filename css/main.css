@@ -1,8 +1,73 @@
 html {
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
-  
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.125rem;
+  justify-content: space-between;
+  margin: 1.25rem;
+  padding: 0.5rem 0;
+  color: black;
+  font-weight: 200;
+}
+
+.header-left {
+  color: #335576;
+}
+
+.header-right__links--active {
+  border-bottom: solid #db7a4e 0.25rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #fefaf5;
+  color: #335576;
+  margin: 0;
+}
+
+h4,
+.footer__subtitle {
+  color: #db7a4e;
+  font-weight: 200;
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.footer__subtitle-days {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer__hours {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0.5rem;
+}
+
+.footer__hours-mid {
+  margin-right: 2rem;
+  margin-left: 6rem;
+}

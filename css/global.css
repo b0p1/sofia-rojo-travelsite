@@ -3,7 +3,10 @@ html {
   }
   *, *:before, *:after {
     box-sizing: inherit;
+    border: 1px solid red;
   }
 body{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:verdana;
+    font-weight: 400;
+    color:#335576 ;
 }

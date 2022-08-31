@@ -14,7 +14,73 @@ main{
 }
 
 .hero{
-  background-image: url(../assets/images/hero.png);
-  width: 100vh;
+  background-color:#FEFAF5 ;
+  display: flex;
+  align-items: center;
+  padding: 1rem 6rem;
+}
+
+.hero__content-slogan{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color:#335576 ;
+}
+
+.hero__title{
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.hero__description{
+  text-align: left;
+  width: 90%;
+  padding: 2rem 0;
+}
+
+
+button{
+  background-color: #DB7A4E;
+  border: none;
+  border-radius: 2rem;
+  color: white;
+  padding: .75rem 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+}
+.hero-image-content{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-image{
+  width: 100%;
   
 }
+
+.main-recommend__title{
+  text-align: left;
+  padding: 1rem 3rem;
+}
+
+.main-recommend__cards{
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  color: white;
+  font-size: 2rem;
+  text-align: right;
+  padding: 0 4rem;
+}
+
+.main-recommend__card{
+  background-color: lightblue;
+  width: 300px;
+  height: 400px;
+  margin: 0 1.5rem;
+  border:rgba(0, 0, 0, 20%) 1px solid ;
+  box-shadow: 0 .25rem .25rem rgba(0, 0, 0, 20%) ;
+  border-radius: .5rem;
+}
+

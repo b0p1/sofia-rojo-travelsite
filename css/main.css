@@ -41,7 +41,10 @@ footer {
   background-color: #fefaf5;
   color: #335576;
   margin: 0;
+  
 }
+
+
 
 h4,
 .footer__subtitle {
@@ -61,6 +64,7 @@ h4,
   display: flex;
   justify-content: space-between;
   margin-bottom: 0;
+  
 }
 
 p {
@@ -70,4 +74,24 @@ p {
 .footer__hours-mid {
   margin-right: 2rem;
   margin-left: 6rem;
+}
+
+.footer-right{
+  
+}
+
+.social{
+  display: flex;
+  margin-top: 1.75rem;
+}
+
+.social__imgs{
+  width: 2rem;
+  height: 2rem;
+  justify-content: space-between;
+}
+
+.social__imgs-mid{
+height: 2rem;
+margin: 0 3rem;
 }

@@ -25,7 +25,12 @@ nav {
   background-color: #ffffff;
 }
 
-a {
+a{
+    text-decoration: none;
+}
+
+a.header-right__links,
+.header-right__links--active {
   text-decoration: none;
   font-size: 1.125rem;
   justify-content: space-between;

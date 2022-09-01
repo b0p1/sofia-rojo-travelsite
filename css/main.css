@@ -68,7 +68,7 @@ button {
 .main-recommend__title {
   text-align: left;
   padding: 1rem 4rem;
-  margin: 0 -11rem;
+  margin: 0 -12rem;
   margin-bottom: 1rem;
 }
 
@@ -80,19 +80,19 @@ button {
   font-size: 2rem;
   text-align: right;
   width: 100%;
-  padding: 0 10%;
 }
 
 .main-recommend__card {
   display: flex;
-  width: 15rem;
-  height: 22rem;
+  width: 19rem;
+  height: 27rem;
   margin: 0 1.5rem;
   border: rgba(0, 0, 0, 20%) 1px solid;
   box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 20%);
   border-radius: 0.313rem;
   align-items: flex-end;
   justify-content: flex-end;
+  zoom: 80%;
 }
 
 .main-recommend__card-hawaii {
@@ -120,7 +120,7 @@ a.cards-text {
   font-weight: 600;
   font-size: 1.5rem;
   color: white;
-  padding: 19rem 1.5rem 1rem 7.5rem;
+  padding: 24rem 1.5rem 1rem 11.5rem;
 }
 
 div.main-recommend__card-iceland a.cards-text-iceland {

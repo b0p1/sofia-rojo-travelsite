@@ -7,69 +7,66 @@ html {
   box-sizing: inherit;
 }
 
-main{
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.hero{
-  background-color:#FEFAF5 ;
+.hero {
+  background-color: #fefaf5;
   display: flex;
   align-items: center;
-  padding: 3rem 5rem ;
-  r
+  padding: 3rem 5rem;
 }
 
-.hero__content-slogan{
+.hero__content-slogan {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  color:#335576 ;
+  color: #335576;
   margin-right: 4rem;
 }
 
-.hero__title{
+.hero__title {
   font-size: 2.5rem;
-  
 }
 
-.hero__description{
+.hero__description {
   text-align: left;
   width: 100%;
-  margin:  0;
+  margin: 0;
 }
 
-
-button{
-  background-color: #DB7A4E;
+button {
+  background-color: #db7a4e;
   border: none;
   border-radius: 2rem;
   color: white;
-  padding: .75rem 3rem;
+  padding: 0.75rem 3rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1rem;
   font-weight: 100;
   margin: 2rem 0;
 }
-.hero-image-content{
+.hero-image-content {
   display: flex;
   justify-content: flex-end;
   width: 65%;
 }
 
-.hero-image{
+.hero-image {
   width: 100%;
   padding: 1rem;
 }
 
-.main-recommend__title{
+.main-recommend__title {
   text-align: left;
   padding: 1rem 3rem;
-  margin👍: 0;
+  margin: 0;
 }
 
-.main-recommend__cards{
+.main-recommend__cards {
   display: flex;
   justify-content: space-evenly;
   align-content: center;
@@ -77,41 +74,40 @@ button{
   font-size: 2rem;
   text-align: right;
   padding: 0 10rem;
-  
 }
 
-.main-recommend__card{
+.main-recommend__card {
   display: flex;
   background-color: lightblue;
   width: 19rem;
   height: 28rem;
   margin: 0 1.5rem;
-  border:rgba(0, 0, 0, 20%) 1px solid ;
-  box-shadow: 0 .25rem .25rem rgba(0, 0, 0, 20%) ;
-  border-radius: .313rem;
+  border: rgba(0, 0, 0, 20%) 1px solid;
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 20%);
+  border-radius: 0.313rem;
   align-items: flex-end;
   justify-content: flex-end;
 }
 
-.main-recommend__card-hawaii{
+.main-recommend__card-hawaii {
   background-image: url(../assets/images/hawaii.jpg);
   background-size: 100%;
 }
 
-.main-recommend__card-iceland{
+.main-recommend__card-iceland {
   background-image: url(../assets/images/iceland.jpg);
   background-size: 100%;
 }
 
-.main-recommend__card-greece{
+.main-recommend__card-greece {
   background-image: url(../assets/images/greece.jpg);
   background-size: 100%;
 }
 
-p.cards-text{
+p.cards-text {
   margin: 0;
-  margin-bottom: 1.5rem ;
-  margin-right: .75rem;
+  margin-bottom: 1.5rem;
+  margin-right: 0.75rem;
   font-weight: 600;
   font-size: 1.5rem;
 }

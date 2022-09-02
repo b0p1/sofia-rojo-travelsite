@@ -14,6 +14,10 @@ body {
   margin: 0;
 }
 
+ul {
+  list-style: none;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -25,8 +29,13 @@ nav {
   background-color: #ffffff;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
+}
+
+.header-right__list {
+  display: flex;
+  text-align: center;
 }
 
 a.header-right__links,
@@ -34,7 +43,7 @@ a.header-right__links,
   text-decoration: none;
   font-size: 1.125rem;
   justify-content: space-between;
-  margin: 0.5rem;
+  margin: 1rem;
   padding: 0.5rem 0;
   color: black;
   font-weight: 200;
